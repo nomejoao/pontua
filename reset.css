@@ -1,0 +1,56 @@
+/* reset.css */
+
+/* Elimina as margens e preenchimentos padrões de todos os elementos */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove as linhas de base e fontes padrão dos navegadores */
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* Evita que os elementos de lista tenham marcação por padrão */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove a borda de elementos de formulário e imagens */
+input,
+button,
+textarea,
+select,
+img {
+  border: 0;
+  outline: none;
+}
+
+/* Faz as imagens se ajustarem bem dentro dos seus contêineres */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Garante que os elementos de formulário se comportem de forma consistente */
+button {
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Remove a estilização padrão de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Garantir que o foco em elementos seja visível */
+:focus {
+  outline: 2px solid #0078d4; /* cor de foco */
+  outline-offset: 2px;
+}
